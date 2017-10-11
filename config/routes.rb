@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :tickets
+
   resources :statuses
 
   resources :users
