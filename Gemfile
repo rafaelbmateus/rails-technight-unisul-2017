@@ -40,3 +40,6 @@ gem 'spring',        group: :development
 
 # Flexible authentication solution for Rails with Warden. 
 gem 'devise'
+
+# Bootstrap Sass
+gem 'bootstrap-sass'
