@@ -43,3 +43,6 @@ gem 'devise'
 
 # Bootstrap Sass
 gem 'bootstrap-sass'
+
+# RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data
+gem 'rails_admin', '~> 1.2'

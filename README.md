@@ -239,6 +239,7 @@ Status.create(name: 'Close')
   
 ### Rails Admin
 #### Add in Gemfile
+  # RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data
   gem 'rails_admin', '~> 1.2'
 
   bundle install
