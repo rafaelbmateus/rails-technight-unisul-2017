@@ -8,6 +8,7 @@ Rails Tutorial for Unisul Technight 2017
 ## Steps
 ### Scaffold Users
   rails generate scaffold User name age:integer is_admin:boolean
+  
   rake db:migrate
   
 ### Get Users
@@ -16,29 +17,37 @@ Rails Tutorial for Unisul Technight 2017
 
 ### Scaffold Status
   rails generate scaffold Status name
+  
   rake db:migrate
   
 ### Get Status
   localhost:3000/statuses
+  
   localhost:3000/statuses.json
   
 ### Scaffold Tickets
   rails generate scaffold Ticket title description status:references user:references
+  
   rake db:migrate
   
 ### Get Tickets
   localhost:3000/tickets
+  
   localhost:3000/tickets.json
   
 ### Authentication
   Gemfile
+  
   # Flexible authentication solution for Rails with Warden. 
+  
   gem 'devise'
-  # Remove the spring gem!
   
   bundle install
+  
   rails generate devise:install
+  
   rails generate devise User
+  
   rake db:migrate
 
 Add in app/controllers/application_controller.rb
@@ -46,6 +55,7 @@ Add in app/controllers/application_controller.rb
 
 ### Routes
   config/routes.rb
+  
   root 'tickets#index'
   
 ### Layout
