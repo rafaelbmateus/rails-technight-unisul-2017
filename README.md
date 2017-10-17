@@ -274,7 +274,7 @@ $ rails g rails_admin:install
 ```
 
 #### Authentication
-- add in config/initializers/rails_admin.rb
+- Add in config/initializers/rails_admin.rb
 ```ruby
   config.authenticate_with do
     redirect_to main_app.root_path unless
