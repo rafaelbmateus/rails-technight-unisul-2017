@@ -269,8 +269,8 @@ $ touch app/views/layouts/_footer.html.erb
 gem 'rails_admin', '~> 1.2'
 ```
 ```
-bundle install
-rails g rails_admin:install
+$ bundle install
+$ rails g rails_admin:install
 ```
 
 #### Authentication
