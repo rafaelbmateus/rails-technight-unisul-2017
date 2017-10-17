@@ -63,7 +63,7 @@ before_action :authenticate_user!
 ### Routes
 - Add in config/routes.rb
 ```ruby
-  root 'tickets#index'
+root 'tickets#index'
 ```
   
 ### Layout
@@ -75,7 +75,7 @@ gem 'bootstrap-sass'
 
 #### Converter your css to scss
 ```
-mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+$ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
 ```
 
 #### Create custom.scss
@@ -189,8 +189,8 @@ footer {
 
 #### Partials
 ```
-touch app/views/layouts/_header.html.erb
-touch app/views/layouts/_footer.html.erb
+$ touch app/views/layouts/_header.html.erb
+$ touch app/views/layouts/_footer.html.erb
 ```
 
 ##### Header
@@ -218,6 +218,7 @@ touch app/views/layouts/_footer.html.erb
 ```
 
 ##### Footer
+- Add in app/views/layouts/_footer.html.erb
 ```html
 <footer class="footer">
   <small>
@@ -233,6 +234,7 @@ touch app/views/layouts/_footer.html.erb
 ```
 
 ##### Application
+- Update in app/views/layouts/application.html.erb
 ```html
 <!DOCTYPE html>
 <html>
