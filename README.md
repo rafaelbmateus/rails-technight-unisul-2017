@@ -281,3 +281,16 @@ $ rails g rails_admin:install
     current_user.is_admin?
   end
 ```
+
+## Helps
+### Kill process
+- A server is already running...
+```
+$ cat /home/cabox/workspace/tmp/pids/server.pid.
+```
+
+### Select
+- Update the app/views/tickets/_form.erb
+```ruby
+<%= f.select :user_id, User.all.collect { |user| [user.name] } %>
+```
