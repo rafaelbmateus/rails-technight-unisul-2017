@@ -74,13 +74,13 @@ end
 ```
   
 ### Layout
-#### Add Bootstrap Sass Gem
+- Add Bootstrap Sass Gem
 ```ruby
 # Bootstrap Sass
 gem 'bootstrap-sass'
 ```
 
-#### Converter your css to scss
+- Converter your css to scss
 ```
 $ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
 ```
