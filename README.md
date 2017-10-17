@@ -63,7 +63,14 @@ before_action :authenticate_user!
 ### Routes
 - Add in config/routes.rb
 ```ruby
-root 'tickets#index'
+Rails.application.routes.draw do
+  root 'tickets#index'
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  devise_for :users
+  resources :users
+  resources :tickets
+  resources :statuses
+end
 ```
   
 ### Layout
@@ -265,8 +272,8 @@ rails g rails_admin:install
 ```
 
 #### Authentication
+- add in config/initializers/rails_admin.rb
 ```ruby
-  add in config/initializers/rails_admin.rb
   config.authenticate_with do
     redirect_to main_app.root_path unless
     current_user.is_admin?
