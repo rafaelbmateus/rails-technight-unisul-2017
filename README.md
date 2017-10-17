@@ -286,7 +286,12 @@ $ rails g rails_admin:install
 ### Kill process
 - A server is already running...
 ```
-$ cat /home/cabox/workspace/tmp/pids/server.pid.
+$ cat /home/cabox/workspace/tmp/pids/server.pid
+$ kill -9 <pid>
+```
+Example
+```
+$ kill -9 2022
 ```
 
 ### Select
