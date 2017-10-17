@@ -88,8 +88,8 @@ $ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.s
 ```
 
 #### Create custom.scss
+- Add in app/assets/stylesheets/custom.scss
 ```css
-app/assets/stylesheets/custom.scss
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
