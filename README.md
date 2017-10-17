@@ -264,7 +264,7 @@ $ touch app/views/layouts/_footer.html.erb
 ```
 
 ### Rails Admin
-#### Add in Gemfile
+- Add in Gemfile
 ```
 gem 'rails_admin', '~> 1.2'
 ```
