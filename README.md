@@ -2,7 +2,7 @@
 Rails Tutorial for Unisul Technight 2017
 
 ## Required
-- Account in codeanywhere https://codeanywhere.com/
+- Create a account in codeanywhere https://codeanywhere.com/
 - Create a new project container, "Ruby Development Stack with RVM and Ruby on Rails preinstalled.	Ubuntu 14.04"
 
 ## Steps
